@@ -5,9 +5,8 @@ Python for data analysis final project by :
 > François-xavier Herande,
 
 
-To open the notebook there are two ways : 
+To open the notebook you have to : 
 - open the "notebook_jack_jerome_fx.ipynb" for executable code
-- open the "notebook_jack_jerome_fx.html" for just a html version of the notebook
 
 For the django website : 
 - You can watch a short video showing the different pages on the website
