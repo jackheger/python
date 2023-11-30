@@ -1,8 +1,8 @@
 Python for data analysis final project by :
 
-> Jack Heger
-> Jérôme Henin
-> François-xavier Herande
+> Jack Heger,
+> Jérôme Henin,
+> François-xavier Herande,
 
 
 To open the notebook there are two ways : 
