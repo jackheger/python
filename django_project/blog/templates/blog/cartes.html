@@ -1,0 +1,17 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="center">
+  <div class="title">2022</div>
+  <div class="sub_title" style="font-size: 15px;">Jack Heger & Jules Hellot</div>
+  <div class="btns">
+    <button onclick="window.location.href='{% url 'cartesfrance' %}';">France</button>
+    <button onclick="window.location.href='{% url 'cartesiledefrance' %}';">Ile de France</button>
+    <button onclick="window.location.href='{% url 'cartesparis' %}';">Paris et 92</button>
+    
+
+  </div>
+</div>
+    
+{% endblock %}

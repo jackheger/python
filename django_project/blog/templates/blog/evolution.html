@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="center">
+        <div class="title">Nice Visualizations</div>
+  <div class="sub_title" style="font-size: 15px;"></div>
+        <table style="margin: 0 auto;">
+            
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Number of users per drug </div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique5' %}';">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Correlation between Psychological Traits and Drug Consumption</div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique6' %}';">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Correlation between Psychological Traits and Drug Groups  </div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique7' %}';">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+              <td style="padding-left: 20px;">
+                  <div class="sub_title" style="font-size: 20px;">KNN ROC curve for opioids group</div>
+              </td>
+              <td>
+                  <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique8' %}';">Click Here</button>
+              </td>
+            </tr>           
+        </table>
+    </div>
+    
+{% endblock %}

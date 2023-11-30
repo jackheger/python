@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="center">
+        <div class="title">Graphiques 2022</div>
+  <div class="sub_title" style="font-size: 15px;">Jack Heger & Jules Hellot</div>
+        <table style="margin: 0 auto;">
+            
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Repartition des mutations selon le type de local</div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique1' %}';">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Prix moyen par type de local en france  </div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique2' %}';">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Nombre de mutation par mois en 2022  </div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique3' %}';">Click Here</button>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding-left: 20px;">
+                    <div class="sub_title" style="font-size: 20px;">Répartition des mutations par type de biens immobiliers en Île-de-France  </div>
+                </td>
+                <td>
+                    <button style="padding: 5px 5px; font-size: 15px;" onclick="window.location.href='{% url 'graphique4' %}';">Click Here</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+{% endblock %}

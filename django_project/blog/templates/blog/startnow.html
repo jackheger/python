@@ -1,0 +1,16 @@
+{% extends 'blog/base.html' %}
+{%load static %}
+
+{% block content %}
+
+<div class="center">
+  <div class="title">Drug Consumption</div>
+  <div class="sub_title" style="font-size: 35px;"></div>
+  <div class="btns">
+    <button onclick="window.location.href='{% url 'deuxmille' %}';">Database</button>
+    <button onclick="window.location.href='{% url 'evolution' %}';">Study</button>
+    
+  </div>
+</div>
+{% endblock %}
+
